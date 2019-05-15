@@ -1,0 +1,9 @@
+MySql instance
+docker run --name mysqldb -e MYSQL_USER=mysql -e MYSQL_PASSWORD=Raqudod894? -e MYSQL_DATABASE=books -e MYSQL_ROOT_PASSWORD=Raqudod894? -d mysql
+
+
+AWS env
+- created elastic beanstalk for simple-service named: getting-started
+- EC2 key pair name: rbu-key-pair
+- VPC name: rbu-getting-started
+- Security group name: rbu-getting-started  
